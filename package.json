@@ -1,15 +1,21 @@
 {
   "name": "ByteBuffer",
   "description": "pack or unpack a byte array",
-  "homepage"      : "http://play175.github.com/ExBuffer/",
+  "homepage": "https://github.com/yoke233/ByteBuffer",
   "keywords": [
     "Buffer",
     "byte array",
     "pack",
     "unpack"
   ],
-  "author"        : "yoyo <http://yoyo.play175.com>",
-  "repository"    : {"type": "git", "url": "https://github.com/play175/ExBuffer.git"},
+  "author": "yoyo <http://yoyo.play175.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yoke233/ByteBuffer"
+  },
   "main": "ByteBuffer.js",
-  "version"       : "0.2.5"
+  "version": "0.2.6",
+  "dependencies": {
+    "iconv-lite": "~0.2.11"
+  }
 }
